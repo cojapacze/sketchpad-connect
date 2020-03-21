@@ -1,0 +1,32 @@
+table.schedule {
+  background-color: purple;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid purple;
+  margin: auto;
+}
+table.schedule th {
+  background-color: #f0f2f9;
+  color: #2f3355;
+  font-weight: 400;
+  padding: 8px;
+}
+table.schedule td {
+  background-color: #fafafa;
+  padding: 8px;
+}
+table.schedule th.title {
+  text-align: center;
+}
+table.schedule th.time {
+  text-align: center;
+}
+table.schedule th.no {
+  text-align: center;
+}
+table.schedule th.weekday {
+  width: 100px;
+}
+table.schedule td.room {
+  text-align: center;
+}
