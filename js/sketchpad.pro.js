@@ -16,6 +16,7 @@ function generatePASSWD(length) {
 function generateUUID() {
   'use strict';
   var e = new Date().getTime(),
+      o = "yxxxxxxxxxxddxxxxxx";
   var randomRoomKey = o.replace(/[xdy]/g, function (o) {
       var t = (e + 16 * Math.random()) % 16 | 0,
           n = (e + 10 * Math.random()) % 10 | 0,
